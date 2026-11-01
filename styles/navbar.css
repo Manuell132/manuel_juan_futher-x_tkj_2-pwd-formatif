@@ -1,0 +1,55 @@
+body {
+  background-color: aliceblue;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#main-header {
+  background-color: darkblue;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+}
+
+.logo {
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.nav-menu {
+  display: flex;
+  /* Ketika flex-direction adalah column, semua konten
+  .nav-menu menjadi berbaris dari atas ke bawah,
+  sedangkan row, kiri ke kanan */
+  flex-direction: row;
+  gap: 24px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.nav-menu > li {
+  list-style: none;
+}
+
+.nav-menu a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-menu a:hover {
+  color: yellow;
+  cursor: pointer;
+}
+
+main {
+  margin: 15px 20px;
+}
+
+footer {
+  margin: 100px 20px;
+}
