@@ -15,7 +15,7 @@ body {
 
 .gallery {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 2fr repeat(3, 1fr);
   gap: 20px;
 }
 
